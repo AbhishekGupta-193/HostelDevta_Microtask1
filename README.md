@@ -9,8 +9,11 @@ Deployed link :https://ad1yac.deta.dev/
 Endpoint:'/address'
 
 Body Parameter(in JSON)
+
 1.dist
+
 2.city
+
 3.pin
 
 # GET address info for a particular pin
@@ -18,6 +21,7 @@ Body Parameter(in JSON)
 Endpoint:'/info'
 
 Body Parameter(in JSON)
+
 1.None
 
 # PUT info for a particular pin
@@ -25,8 +29,11 @@ Body Parameter(in JSON)
 Endpoint :'/update/:data'
 
 Body Parameter(in JSON)
+
 1.dist
+
 2.city
+
 3.pin
 
 # DELETE info of a particular pin
@@ -34,4 +41,5 @@ Body Parameter(in JSON)
 Endpoint :'/deleteinfo/:data'
 
 Body Parameters (in JSON)
+
 1.None
