@@ -16,7 +16,7 @@ Body Parameter(in JSON)
 
 3.pin
 
-# GET address info for a particular pin
+# GET address info
 
 Endpoint:'/info'
 
@@ -24,7 +24,7 @@ Body Parameter(in JSON)
 
 1.None
 
-# PUT info for a particular pin
+# PUT info for a particular pin (i.e data)
 
 Endpoint :'/update/:data'
 
@@ -36,7 +36,7 @@ Body Parameter(in JSON)
 
 3.pin
 
-# DELETE info of a particular pin
+# DELETE info of a particular pin (i.e data)
 
 Endpoint :'/deleteinfo/:data'
 
